@@ -54,6 +54,12 @@ header .logo{
      font-weight: 400;
      margin-left: 40px;
      text-decoration: none;
+    
+}
+
+header ul li a:hover
+{
+    color: brown;
 }
 .content
 {
@@ -100,6 +106,10 @@ header .logo{
     letter-spacing: 1px;
     text-decoration: none;
     text-transform: uppercase;
+}
+.content .textBox a:hover
+{
+    background-color: chartreuse;
 }
 
 .content .imgBox
