@@ -145,7 +145,8 @@ header ul li a:hover
 
 .thumb li:hover
 {
-    transform: translateY(-15px)
+   
+    transform: rotate(360deg)
 }
 .thumb li img
 {
