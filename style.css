@@ -145,7 +145,6 @@ header ul li a:hover
 
 .thumb li:hover
 {
-   
     transform: rotate(360deg)
 }
 .thumb li img
@@ -169,6 +168,8 @@ header ul li a:hover
 .sci li
 {
     list-style: none;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 .sci li a
@@ -177,4 +178,8 @@ header ul li a:hover
     filter: invert(1);
     margin: 5px 0;
     transform: scale(0.7);
+}
+.sci li a:hover
+{
+    color: maroon;
 }
