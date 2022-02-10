@@ -91,7 +91,7 @@ header ul li a:hover
 }
 .content .textBox p
 {
-    columns: #fff;
+    color: #fff;
 }
 
 .content .textBox a
@@ -178,8 +178,4 @@ header ul li a:hover
     filter: invert(1);
     margin: 5px 0;
     transform: scale(0.7);
-}
-.sci li a:hover
-{
-    color: maroon;
 }

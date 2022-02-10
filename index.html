@@ -37,9 +37,9 @@
         </div>
 
         <ul class="thumb">
-            <li><img src="pepsi001.png" onclick="imgSlider('pepsi001.png')"> </li>
-            <li><img src="pepsi002.png" onclick="imgSlider('pepsi002.png')"> </li>
-            <li><img src="pepsi003.png" onclick="imgSlider('pepsi003.png')"> </li>
+            <li><img src="pepsi001.png" onclick="imgSlider('pepsi001.png');changeBgColor('#0062be')"></li>
+            <li><img src="pepsi002.png" onclick="imgSlider('pepsi002.png');changeBgColor('#e60c2c')"></li>
+            <li><img src="pepsi003.png" onclick="imgSlider('pepsi003.png');changeBgColor('#1e1e1e')"></li>
         </ul>
         <ul class="sci">
 
@@ -54,6 +54,10 @@
     function imgSlider(anything){
         document.querySelector('.Pepsi').src = anything;
     }
+    function changeBgColor(color){
+    const sec = document.querySelector('.sec');
+    sec.style.background = color;
+}
     </script>
 </body>
 </html>
