@@ -179,3 +179,8 @@ header ul li a:hover
     margin: 5px 0;
     transform: scale(0.7);
 }
+
+.trademark{
+    display: l;
+    color: yellow;
+}
