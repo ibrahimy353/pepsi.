@@ -183,6 +183,8 @@ header ul li a:hover
 .footer{
     bottom: 0;
     right: 0;
+    position: absolute;
     color: yellow;
     text-align: right;
+    text-orientation:upright;
 }
